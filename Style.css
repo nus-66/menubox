@@ -1,0 +1,59 @@
+.header{
+    width: 637px;
+    height: 39px;
+    border: 5px solid red;
+    color: black;
+    background-color: burlywood;
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+    font-size: x-large;
+}
+
+.menu{
+    width: 637px;
+    height: 39px;
+    border: 5px solid red;
+    color: aqua;
+ul{
+    list-style: none;
+    background-color: beige;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+}
+ul li{
+    float: left;
+    border-right: 1px solid red;
+}
+ul li:last-child{
+    border-right: none;
+}
+ul li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    transition: 1s;
+}
+ul li a:hover{
+    background-color: aliceblue;
+    color: red;
+    text-decoration: underline;
+}
+}
+.main{
+    width: 637px;
+    height: 520px;
+    border: 5px solid red;
+    color: black;
+    background-color: burlywood;
+}
+.end{
+    width: 637px;
+    height: 35px;
+    border: 5px solid red;
+    color: black;
+    background-color: burlywood;
+    text-align: center;
+    padding: 7px 0px 0px 0px;
+    font-size: x-large;
+}
